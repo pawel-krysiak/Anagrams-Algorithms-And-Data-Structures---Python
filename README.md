@@ -43,13 +43,13 @@ Sometimes specification is not enough so i provide you some test cases that may 
 
 > ```expect find_anagrams('open') to return [] ```,
 
-> ```expect find_anagrams('open') to return ['open'] ```,
-
-> ```expect find_anagrams('open') to return ['open'] ```,
+> ```expect find_anagrams('open') to return [] ```,
 
 >```expect find_anagrams('nope') to return ['open'] ```
 
-4 test case (1 step)
+4 test case (2 steps)
+
+>```expect find_anagrams('') to return [] ```
 
 >```expect find_anagrams('') to return [] ```
 
